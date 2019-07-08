@@ -49,7 +49,7 @@ class App extends React.Component {
   render() {
     return (
       <Router>
-        <div className="App">
+        <div className="App bg-gray-300">
           <div className="container">
             <Header />
             <Route exact path="/" render={props =>(
